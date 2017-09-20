@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+  .red{
+    background-color: orange;
+    height: 80vh;
+  }
+  @media(max-width:575px) {
+    .red{
+    background-color:green;
+    height:100vh;
+    }
+  }
+  @media(min-width:576px) and (max-width:750px){
+    .red{
+    background-color:red;
+    height:100vh;
+    }
+  }
+  @media(min-width:751px) and (max-width:991px){
+    .red{
+    background-color:pink;
+    height:100vh;
+    }
+  }
+  @media(min-width:992px) and (max-width:1200px){
+    .red{
+    background-color:blue;
+    height:100vh;
+    }
+  }
+  .grey{
+    background-color: grey;
+  }
+  .red{
+    background-color: red;
+  }
+  .blue{
+    background-color: blue;
+  }
+  </style>
+</head>
+<body>
+  <div class="container-fluid red">
+  <h1 class="hero">My <span class="display-1">Homepage</span></h1>
+  <!-- <img class="img img-thumbnail d-block mx-auto" src="img.jpg"> -->
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col grey align-self-start">Col1</div>
+    <div class="col red align-self-center">Col2</div>
+    <div class="col blue align-self-end">Col3</div>
+  </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/css/tether.min.css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+</html>

@@ -1,0 +1,30 @@
+body{
+  background: url(img.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Anton', sans-serif;
+}
+.hero{
+  color: #fff;
+  text-align: center;
+  margin-top: 20%;
+  font-size: 75px;
+}
+.img{
+  height: 200px;
+  width: 300px;
+}
+.footer{
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+}
+.con{
+  margin-top: 50px;
+  background-color: grey;
+  height: 100vh;
+}
+.jumbotran{
+  background-color: green;
+  color:black;
+  text-align: center;
+}
